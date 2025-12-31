@@ -1,0 +1,65 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.controls {
+    background: #1e1e1e;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #333;
+}
+
+.view-bar {
+    padding: 15px;
+    background-color: #262626;
+    border-radius: 0;
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+    font-size: 14px;
+    color: #aaa;
+    border: 1px solid #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.adv-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding-top: 25px;
+    border-top: 1px solid #333;
+}
+
+.adv-grid a {
+    display: block;
+    text-align: center;
+    background: #1c644c;
+    color: white;
+    padding: 15px;
+    border-radius: 0;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: filter 0.2s, background-color 0.2s;
+    border: 1px solid transparent;
+}
+
+.adv-grid a:hover {
+    background: #247a5d;
+    filter: brightness(1.1);
+}
+
+.adv-grid a:active {
+    background: #284a77;
+}
